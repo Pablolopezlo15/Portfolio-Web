@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/Favicon/favicon.ico" />
+  <title>Pablo | Portfolio</title>
+  <link rel="stylesheet" href="index.css"/>
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="home">
+    <div class="section-container">
+      <!-- <nav class="nav" >
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+          <li class="nav__item"><a href="#project" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav> -->
+
+    </div>
+    <div class="header__text-box section-container">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Pablo López Lozano</span>
+        </h1>
+        <p>A Web Developer.</p>
+          <a href="https://github.com/Pablolopezlo15" class="btn btn--blue">My Github</a>
+      </div>
+    </div>
+
+    <div class="navbar">
+      <div class="menu-toggle" id="mobile-menu">
+        <input id="toggle" type="checkbox"></input>
+        <label for="toggle" class="hamburger">
+          <div class="top-bun"></div>
+          <div class="meat"></div>
+          <div class="bottom-bun"></div>
+        </label>
+      </div>
+        <ul class="nav__items nav-list" id="nav-list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+          <li class="nav__item"><a href="#project" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+  </div>
+  </header>
+
+  <main role="main">
+
+    <!--  About  -->
+
+    <section class="about" id="about">
+      <div class="section-container">
+        <div class="about__content">
+          <div class="about__text">
+            <h2>About Me</h2>
+            <p>
+              I am a passionate web developer with experience in HTML, CSS, JavaScript and other web technologies. I strive to create attractive, functional websites that solve problems and provide a great user experience.
+            </p>
+          </div>
+
+          <div class="about__photo-container">
+            <img class="about__photo" src="./images/header2.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!--  Skills  -->
+
+    <section id="skills" >
+      <div class="section-container">
+      <div>
+        <h2>Skills</h2>
+        <p>These are some of my skills.</p>
+      </div>
+          <div class="skills--content">
+              <div class="skills--bar">
+                  <div class="iconskills">
+                      <img src="images/icon/html.svg"  alt="">
+                  </div>
+                  <div class="skills--progress">
+                      <span id="barProgress95"></span>
+                  </div>
+                  <div>
+                      <span>95%</span>
+                  </div>
+              </div>
+              <div class="skills--bar">
+                  <div class="iconskills">
+                      <img src="images/icon/css.svg"  alt="">
+                  </div>
+                  <div class="skills--progress">
+                      <span id="barProgress90"></span>
+                  </div>
+                  <div>
+                      <span>90%</span>
+                  </div>
+              </div>
+              <div class="skills--bar">
+                  <div class="iconskills">
+                      <img src="images/icon/js.svg"  alt="">
+                  </div>
+                  <div class="skills--progress">
+                      <span id="barProgress95"></span>
+                  </div>
+                  <div>
+                      <span>95%</span>
+                  </div>
+              </div>
+              <div class="skills--bar">
+                  <div class="iconskills">
+                      <img src="images/icon/java.svg"  alt="">
+                  </div>
+                  <div class="skills--progress">
+                      <span id="barProgress80"></span>
+                  </div>
+                  <div>
+                      <span>80%</span>
+                  </div>
+              </div>
+              <div class="skills--bar">
+                  <div class="iconskills">
+                      <img src="images/icon/php.svg"  alt="">
+                  </div>
+                  <div class="skills--progress">
+                      <span id="barProgress70"></span>
+                  </div>
+                  <div>
+                      <span>70%</span>
+                  </div>
+              </div>
+              <div class="skills--bar">
+                  <div class="iconskills">
+                      <img src="images/icon/git.svg"  alt="">
+                  </div>
+                  <div class="skills--progress">
+                      <span id="barProgress60"></span>
+                  </div>
+                  <div>
+                      <span>60%</span>
+                  </div>
+              </div>
+          </div>
+    </div>
+  </section>
+
+    <!--  Services  -->
+
+    <section class="service" id="services">
+      <div class="section-container">
+        <h2>Services</h2>
+        <div class="service__boxes">
+          <div class="service__box">
+
+            <div class="service__text">
+              <h3>Web UI Designer</h3>
+              <p>I'll design your UI to help your users navigate your website seamlessly, and with ease.</p>
+            </div>
+
+            <div class="service__icon">
+              <img src="images/services/uidesigner.png" alt="" />
+            </div>
+
+          </div>
+
+          <div class="service__box">
+            
+            <div class="service__text">
+              <h3>Front End Developer</h3>
+              <p>I am able to make a Web Page Interface with some tools: HTML5, CSS3, JavaScript and some frameworks.</p>
+            </div>
+
+            <div class="service__icon">
+              <img src="images/services/frontend.png" alt="" />
+            </div>
+
+          </div>
+
+          <div class="service__box">
+            
+            <div class="service__text">
+              <h3>Back End Developer</h3>
+              <p>I also work on the Back End. I use some programming languages, like PHP and Java. I work with MySQL, Oracle too.</p>
+            </div>
+
+            <div class="service__icon">
+              <img src="images/services/backend.png" alt="" />
+            </div>
+
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+
+    <!--  project  -->
+
+    <section class="project" id="project">
+      <div class="section-container">
+        <h2>My Projects</h2>
+        <div class="project__boxes">
+
+          <div class="project__box">
+            <div class="project__text">
+              <h3>Movie Search</h3>
+              <ul class="project__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="project__links">
+                <a href="https://pablolopezlo15.github.io/Movie-Search/" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Pablolopezlo15/Movie-Search" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="project__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="project__image-box">
+              <img src="./images/Projects/MovieSearch.png" class="project__image" alt="Movie Search" />
+            </div>
+          </div>
+
+          <div class="project__box">
+            <div class="project__text">
+              <h3>Guess The Color</h3>
+              <ul class="project__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="project__links">
+                <a href="https://pablolopezlo15.github.io/RGB-Game-Guess/" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Pablolopezlo15/RGB-Game-Guess" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="project__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="project__image-box">
+              <img src="./images/Projects/GuessTheColor.png" class="project__image" alt="Guess the Color" />
+            </div>
+          </div>
+
+          <div class="project__box">
+            <div class="project__text">
+              <h3>Sticky Notes</h3>
+              <ul class="project__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="project__links">
+                <a href="https://pablolopezlo15.github.io/Sticky-Notes/" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Pablolopezlo15/Sticky-Notes">
+                  <img src="./images/github.svg" class="project__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="project__image-box">
+              <img src="./images/Projects/StickyNotes.png" class="project__image" alt="Sticky Notes" />
+            </div>
+          </div>
+
+          <div class="project__box">
+            <div class="project__text">
+              <h3>Pong Game</h3>
+              <ul class="project__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="project__links">
+                <a href="https://pablolopezlo15.github.io/Pong-Game/" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Pablolopezlo15/Pong-Game">
+                  <img src="./images/github.svg" class="project__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="project__image-box">
+              <img src="./images/Projects/PongGame.png" class="project__image" alt="Pong Game" />
+            </div>
+          </div>
+        
+          <div class="project__box">
+            <div class="project__text">
+              <h3>Reading List</h3>
+              <ul class="project__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="project__links">
+                <a href="https://pablolopezlo15.github.io/Reading-List/" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Pablolopezlo15/Reading-List">
+                  <img src="./images/github.svg" class="project__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="project__image-box">
+              <img src="./images/Projects/TheReadingList.PNG" class="project__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="project__box">
+            <div class="project__text">
+              <h3>Virtual Wallet</h3>
+              <ul class="project__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PHP</li>
+              </ul>
+
+              <div class="project__links">
+                <!-- <a href="https://pablolopezlo15.github.io/Sticky-Notes/" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a> 
+                <a href="https://github.com/Pablolopezlo15/Sticky-Notes">
+                  <img src="./images/github.svg" class="project__code" title="View Source Code" alt="GitHub">
+                </a>-->
+              </div>
+            </div>
+            <div class="project__image-box">
+              <img src="./images/Projects/monedero.PNG" class="project__image" alt="Monedero" />
+            </div>
+          </div>
+        
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!--  Contact  -->
+
+  <section class="contact" id="contact">
+    <div class="section-container">
+      <h2>Contact</h2>
+      <div class="contact__info">
+        <p>Contact with me here!</p>
+        <form action="">
+          <input type="text" placeholder="Name" class="contact__input" />
+          <input type="email" placeholder="Email" class="contact__input" />
+          <textarea placeholder="Message" class="contact__input"></textarea>
+          <input type="submit" value="Send" class="btn"/>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer  -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="section-container">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/Pablolopezlo15/">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.instagram.com/pablolopez_15_/">
+            <img src="./images/icon/instagram.svg" class="footer__social-image" alt="Instagram">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/pablo-l%C3%B3pez-lozano-6a2121277/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <p>
+        &copy; 2023 - <a href="https://github.com/Pablolopezlo15/" class="link">Pablo López Lozano</a>.
+      </p>
+      <div class="footer__github-buttons">
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
